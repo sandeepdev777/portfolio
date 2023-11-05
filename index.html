@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style_portfolio.css">
+    <script src="https://kit.fontawesome.com/27abee22de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="id1">
+      <div id="id2">
+        <nav>
+            <img src="ANDEEP.png" class="logo">
+        <ul id="side_menu">
+            <li><a href="#id1">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="close_menu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="open_menu()"></i>
+        </nav>
+         <div id="header0">
+          <div id="header">
+            <p >Software Developer</p><br>
+            <h1>Hi, I'm <span>Sandeep</span><br> from India</h1>
+          </div>
+  <!------span tag is used to target a specific content in html----->
+         <div id="header1"><img src="logo5.png"></div>
+         </div>
+       
+      </div>
+    </div>
+
+    <!----- ABOUT SECTION-->
+    <div id="about">
+      <div class="id3">
+        <div class="row">
+          <div class="col1">
+            <img src="sandeep_full.png">
+          </div>
+          <div class="col2">
+             <h1 class="sub_title">About Me</h1>
+             <p>Hi! I’m Sandeep Kumar, a computer science student  currently pursuing MCA(Master's in Computer Application). 
+              I’m a hard-working, passionate person who believes in the importance of education and accessibility to 
+              technological advancements.  
+              I’m interested in learning more about how computers work, and I have been working on my own projects 
+              that combine coding and art.
+              I’m interested in the field because it allows me to apply my math, science, and programming knowledge to solve exciting
+              and valuable problems.
+             </p>
+             <div class="tab">
+              <p class="tab_links active_links" onclick="opentab('skills')">Skills</p> <!---- adding multiple classes to a single tag(tag_link,active_link)-->
+              <p class="tab_links" onclick="opentab('experience')">Experience</p>
+              <p class="tab_links" onclick="opentab('education')">Education</p>
+             </div>
+             <div class="contents active_contents" id="skills">
+              <ul>
+                <li><span>Hard Skills</span><br>Programming Languages(eg. C,C++,Java)<br>
+                Web Development(e.g. HTML,CSS,Javascript)</li>
+                <li><span>Soft Skills</span><br>Problem Solving and Critical Thinking<br>Attention to Details and Accuracy<br>Time Management and Prioritization<br>Teamwork and Interpersonal Skills</li>
+              </ul>
+             </div>
+             <div class="contents" id="experience">
+            <p>I consider my self a
+              responsible and orderly
+              person.<br>
+              I am looking forward for
+              my first work
+              experience</p>
+              </div>
+              <div class="contents" id="education">
+                <ul>
+                  <li>(2020-2023)<br><span>Bachelor's in Mathematics</span><br>
+                  Ewing Christian College,Prayagraj</li>
+                  <li>(2023-2025)<br><span>MCA-Master's in Computer Application</span><br>Harcourt Butler Technical University,Kanpur</li>
+                </ul>
+                </div>
+        </div>
+     
+      </div>
+    </div>
+
+    <!--------SERVICES SECTION-->
+      <div id="services">
+          <div class="container">
+            <h1 class="sub_title">My Services</h1>
+            <div class="service_list">
+             <div>
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-js"></i>
+              <h2>Front End Development</h2>
+              <p>A front-end developer uses code that affects 
+                how a website looks <br>and how a user interacts with its webpages.The programming languages that a front-end developer uses can create a static 
+                webpage or a dynamic one.Programming languages used are:<br>
+                </p>
+                <ul>
+                  <li>HTML </li>
+                  <li>CSS </li>
+                  <li>Javascript </li>
+                </ul>
+                <a href="https://www.w3schools.com/whatis/whatis_frontenddev.asp">Learn More</a>
+             </div>
+             <div>
+              <i class="fa-brands fa-js"></i>
+              <i class="fa-brands fa-java"></i>
+              <i class="fa-brands fa-node"></i>
+              <h2>Back End Development</h2>
+              <p>Back-end development means working on server-side software, which focuses 
+                on everything you can’t see on a website.Back-end 
+                developers ensure the website performs correctly,
+                 focusing on databases, back-end logic, application programming interface 
+                (APIs), architecture, and servers.
+                <br><h4>Languages</h4>
+              Javascript <br>Java <br><br><h4>Frameworks</h4>
+            Node js </p>
+              <a href="https://www.coursera.org/articles/back-end-developer">Learn More</a>
+            
+             </div>
+
+            </div>
+          </div>
+      </div>
+ 
+      <!---------porfolio----->
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="subtitle">My Work</h1>
+          <div class="list">
+            <div class="work">
+              <img src="development.jpg">
+              <br>
+              <div class="layer">
+                  <h3>Front End Development</h3>
+                  <br>
+                  <p>Created a website clone of online shopping giant<br>
+                     FLIPKART using HTML,CSS and Javascript. </p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+             <img src="back_development.jpg">
+             <br>
+             <div class="layer">
+              <h3>Programming Language</h3>
+              <br>
+                 <ul>
+                  <li>Created a digital clock using C(programming language).</li>
+                  <li>Created a TIC-TAC-TOE game using C++.</li>
+                 </ul>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="anchor">See More</a>
+        </div>
+      </div>
+ 
+      <!-------- contact-->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col3">
+              <h1 class="sub_title">Contact Me</h1>
+              <p> <i class="fa-solid fa-paper-plane"></i>sandeepkumar07007@gamil.com</p>
+              <p><i class="fa-solid fa-phone-volume"></i>9026184036</p>
+              <div class="icons">
+            <a href="https://www.linkedin.com/in/sandeep-kumar-584132289" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="sandeep_resume.pdf" download class="anchor anchor2">Download Resume</a>  <!----- This line shows how to add downloading in HTML file-->
+            </div>
+
+            <div class="col4">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="E Mail" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="anchor anchor2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        <div class="rights">
+          <p>Copyright @ Sandeep.<i class="fa-solid fa-registered"></i></p>
+        </div>
+        
+      </div>
+
+   
+<script >
+  var tablinks=document.getElementsByClassName("tab_links");
+  var tabcontents=document.getElementsByClassName("contents");
+  function opentab(tabname){
+  for(tablink of tablinks){
+  tablink.classList.remove("active_links");
+  }                                                //here tablinks and tabcontents are a special type    
+  for(tabcontent of tabcontents){                              //of function which are used to hide the contents of tab--->
+  tabcontent.classList.remove("active_contents");
+  }
+
+  //the above code is to hide the data 
+  //now the below code is to display the data when clicked
+  event.currentTarget.classList.add("active_links");
+  document.getElementById(tabname).classList.add("active_contents");
+}
+
+
+
+
+  //This script tag is for side bar in and out for small screen
+
+  var side_bar=document.getElementById("side_menu");
+  function open_menu(){
+  side_bar.style.right="0";
+  }
+  function close_menu(){
+  side_bar.style.right="-200px";
+  }
+
+
+
+
+  /*adding the google form (javascript code is taken from github and small modoifications done on the lines which are *)*/
+  const scriptURL ='https://script.google.com/macros/s/AKfycbyEVb6Lrqo1vEEg_Ftzfr_SrSGRCTGDA8jc_e_ylNWIejcGoR8MSzx358i53wyp4knT/exec'; //******
+  const form = document.forms['submit-to-google-sheet'] //********
+
+  const msg=document.getElementById('msg')
+  form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => {msg.innerHTML="Form submitted successfully"
+  setTimeout(function(){
+  msg.innerHTML=""
+  },5000 )
+  form.reset();
+  })
+  .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
+
+
+
+
+<!--this tag include the source which required to provide animation to the header text code is written below(3.5)----->
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+
+  //this code is for providing animation to the text in header page********(3.5)
+
+  ScrollReveal({ 
+  reset: true ,
+  distance:'80px',
+  duration:2000,
+  delay:200,
+
+  });
+
+  ScrollReveal().reveal('.sub_title',{origin:'top'})
+  ScrollReveal().reveal('.sub_title,.service_list,.list,.row',{origin:'bottom'})
+  ScrollReveal().reveal('#header p',{origin:'left'})
+  ScrollReveal().reveal('#header h1,#header1',{origin:'right'})
+
+ </script>
+
+  
+  
+</body>
+</html>
